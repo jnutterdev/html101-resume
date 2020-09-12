@@ -1,8 +1,20 @@
 body {
-    background: coral;
+    background: #F2F2F0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Proza Libre', sans-serif;
+    color: #333;
+    font-family: 'Cabin', sans-serif;
+    /* font-family: 'Arimo', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'BioRhyme', serif;
+    /* font-family: 'Didact Gothic', sans-serif; */
+    /* font-family: 'Archivo Black', sans-serif; */
 }
 
 
@@ -13,7 +25,7 @@ body {
     width: 100%;
     margin: 0;
     top: 0;
-    background: white;
+    background: #779FC0;
 }
 
 .fixed-header h1 {
@@ -25,7 +37,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #476E8C;
 }
 
 .fixed-header li {
@@ -41,7 +53,8 @@ body {
 }
 
 .fixed-header li a:hover {
-    background-color: #111;
+    background-color: #6F8C7D;
+    color: white;
 }
 
 
@@ -62,11 +75,11 @@ body {
 }
 
 .footer a {
-    color: lightblue;
+    color: #476E8C;
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: white;
+    color: #9CBFAC;
     text-decoration: underline;
 }
